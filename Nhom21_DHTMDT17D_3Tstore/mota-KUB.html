@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>mô tả sản phẩm </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+        
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .product-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .product-image {
+            width: 450px; /* Thiết lập chiều rộng mong muốn */
+            height: auto; /* Đảm bảo tỷ lệ khung hình bảo toàn */
+            margin-right: 20px;
+            transition: transform 0.3s ease-in-out;}
+    
+        .mota {
+            display: flex;
+        }
+        .product-description {
+            flex: 1;
+        }
+        .product-description h2 {
+            text-align: center;
+        }
+        #description {
+            margin-top: 30px;
+        }
+
+        #description h3 {
+            margin-bottom: 10px;
+        }
+
+        #description p {
+            line-height: 1.6;
+        }
+    
+        #reviews-container {
+            margin-top: 30px;
+        }
+
+        #review-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #review-list li {
+            background-color: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        
+            
+        }
+
+        textarea {
+            width: 98%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+
+        button {
+            width: 200px;
+            margin: auto;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #login-message {
+            text-align: center;
+            color: red;
+            display: none;
+        }
+
+        .action-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .gio-hang {
+        font-size: 40px;
+        cursor: pointer;
+        }
+
+        #write-review-button {
+            padding: 25px 20px;
+            background-color: #528d2d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-info">
+            <img class="product-image" src="KUB.jpeg" alt="Product Image">
+            <div class="product-description">
+                <h2>KEM Ủ TÓC BƯỞI COCOON 200ml</h2>
+                
+                <p> Kem ủ tóc với tinh dầu bưởi truyền thống Việt Nam, Vitamin B5 và Xylishine™ giúp giảm gãy rụng, cung cấp độ ẩm, mang lại sự mềm mại và chắc khoẻ cho sợi tóc. </p>
+                <hr> 
+                <h3> Thích hợp với </h3>
+                <p> Tóc yếu gãy rụng </p>
+            <hr> 
+                <h3> Thành Phần Chính </h3>
+                <p> Tinh dầu vỏ bưởi nguyên chất, Vitamin B5 (D-panthenol) và Xylishine </p>
+                <hr> 
+                <h3>215.000 đ</h3>
+                <br> 
+                <div class="action-buttons">
+                    <button class="gio-hang"> <i class="fas fa-shopping-cart "> </i> </button>
+                    <button id="write-review-button">Viết đánh giá</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br> 
+        <br> 
+        
+    
+
+        <div> 
+        <h3>Mô tả chi tiết</h3>
+        <div class="mota" id="description">
+
+            <img class="product-image" src="MT1.jpg" alt="Product Image">
+            <p>
+                Thành phần chính
+                Tinh dầu bưởi nguyên chất
+                Được trích ly từ vỏ bưởi chứa hàm lượng lớn limonene có khả năng ức chế mạnh mẽ enzyme 5-alpha reductase loại 2 trên da đầu - nguyên nhân chính gây rụng tóc. Đồng thời do có tính kháng khuẩn và chống oxy hóa cao, tinh dầu vỏ bưởi sẽ mang lại cho bạn da đầu và tóc khỏe mạnh.
+                
+                Vitamin B5 (D-panthenol)
+                Có chức năng như một tác nhân dưỡng tóc để cung cấp độ ẩm lâu dài cho tóc, ngăn ngừa hư tổn, làm dày tóc và cải thiện độ bóng khỏe của mái tóc.
+                
+                Xylishine
+                Được chiết xuất từ tảo nâu, Pelvetia canaliculata và các loại đường tự nhiên có trong gỗ. Xylishine ™ là chất dưỡng ẩm và phục hồi tóc, giúp tăng cường độ bóng của tóc.
+            </p>
+        </div>
+        </div>
+<br> 
+        <h3>Khách hàng đánh giá nhận xét </h3>
+        <div class="review-form-container">
+            <form id="review-form">
+                <div class="form-group">
+                    <textarea id="review-content" placeholder="Viết nhận xét của bạn..."></textarea>
+                </div>
+                <button type="submit">Gửi nhận xét</button>
+                <p id="login-message">Vui lòng đăng nhập để đánh giá.</p>
+            </form>
+            <br> 
+        </div>
+            <div id="review-list"></div>
+        </div>
+    </div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Kiểm tra xem Local Storage có trạng thái đăng nhập hay không
+        var isLoggedIn = localStorage.getItem("isLoggedIn");
+    
+        if (isLoggedIn) {
+            // Nếu đã đăng nhập, hiển thị thông báo và tên người dùng
+            var loggedInUser = localStorage.getItem("loggedInUser");
+            alert("Bạn đã đăng nhập với: " + loggedInUser);
+        } else {
+            // Nếu chưa đăng nhập, hiển thị thông báo và chuyển hướng đến trang sản phẩm
+            alert("Bạn hãy đăng nhập");
+            window.location.href = "trangsanpham.html";
+        }
+    
+        // Kiểm tra xem Local Storage có thông tin người dùng đã đăng nhập không
+        var loggedInUser = localStorage.getItem("loggedInUser");
+    
+        if (loggedInUser) {
+            // Nếu đã đăng nhập, bạn có thể sử dụng tên người dùng để thực hiện các hành động khác trên trang
+            console.log("Người dùng đã đăng nhập với username:", loggedInUser);
+    
+            // Xử lý sự kiện khi người dùng gửi đánh giá
+            document.getElementById('review-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                
+                // Lấy nội dung đánh giá từ textarea
+                var reviewContent = document.getElementById('review-content').value;
+                
+                // Kiểm tra người dùng đã đăng nhập hay chưa
+                var loggedInUser = localStorage.getItem('loggedInUser');
+                if (!loggedInUser) {
+                    // Hiển thị thông điệp yêu cầu đăng nhập
+                    document.getElementById('login-message').style.display = 'block';
+                    return; // Dừng việc gửi đánh giá nếu chưa đăng nhập
+                }
+                
+                // Nếu người dùng đã đăng nhập, tiếp tục xử lý gửi đánh giá
+                var reviewMessage = '@' + loggedInUser + ': ' + reviewContent;
+    
+                // Đặt lại textarea sau khi gửi đánh giá
+                document.getElementById('review-content').value = '';
+    
+                // Ẩn thông điệp yêu cầu đăng nhập (nếu đã hiển thị trước đó)
+                document.getElementById('login-message').style.display = 'none';
+    
+                // Hiển thị nhận xét mới gửi
+                displayReview(reviewMessage);
+            });
+    
+            // Hiển thị nhận xét
+            function displayReview(review) {
+                var reviewList = document.getElementById('review-list');
+                var listItem = document.createElement('li');
+                listItem.textContent = review;
+                reviewList.appendChild(listItem);
+            }
+    
+            // Ấn vào viết đánh giá sẽ kéo xuống
+            document.getElementById('write-review-button').addEventListener('click', function() {
+                document.getElementById('review-form').scrollIntoView({ behavior: 'smooth' });
+            });
+        }
+    });
+    
+    </script>
+</body>
+</html>
